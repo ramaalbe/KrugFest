@@ -615,6 +615,7 @@ li:hover {
 }
 
 
+
 /*  Resolucion Telefono */ 
 @media (max-width: 767px){
 
@@ -684,7 +685,7 @@ li:hover {
     .tittle-informacion {
         font-size: 3rem;
         line-height: 1;
-        margin-bottom: 2rem;
+        margin-bottom: 25   rem;
         font-weight: 100;
         text-align: center;
         color: white;
@@ -919,7 +920,7 @@ li:hover {
     }
 
     .informacion{
-        margin-top: -5px;
+        margin-top: -380px;
     }
 
     .button{
