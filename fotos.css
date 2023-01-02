@@ -415,8 +415,7 @@ li:hover {
 
 .gallery {
 	display: flex;
-    width: 1300px;
-    height: 1000px;
+   
     margin-right: 120px;
 
 
@@ -428,7 +427,7 @@ li:hover {
 	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
-    filter: brightness(70%);
+    filter: brightness(90%);
     border-radius: 10px;
 
 }
@@ -453,13 +452,13 @@ li:hover {
 @supports (display: grid) {
 	.gallery {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-		grid-gap: 2rem;
+		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+		grid-gap: 5.5rem;
 	}
 
 	.gallery,
 	.gallery-item {
-		margin-left: 65px;
+		margin-left: 60px;
 	}
 }
 
@@ -832,7 +831,7 @@ li:hover {
       
       
       .container {
-        margin-top: 50px; 
+        margin-bottom: 100px; 
         Display: flex;
         justify-content: center;
         align-items: center;
@@ -1004,15 +1003,17 @@ li:hover {
     }
 
     .tittle{
+        padding: 0.1rem 0;
         font-size: 30px;
-        margin-top: 0px;
+        margin-top: 50px;
+        
 
         
     }
 
     .primera-edicion{
         display: flex;
-        margin-right: 190px;
+        margin-left: 95px;
     }
 
     .gallery{
