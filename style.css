@@ -630,7 +630,11 @@ li:hover {
     @media (max-width:767px){
         .footer{
 
+<<<<<<< HEAD
             padding:20px 0px;
+=======
+             padding:20px 0px;
+>>>>>>> ce9023af9ab0538b86284b52f70556a1bb0b7795
             font-family: 'Play', sans-serif;
             text-align:center;
             margin-top: 100px;
@@ -933,3 +937,4 @@ li:hover {
 
 
 }
+
