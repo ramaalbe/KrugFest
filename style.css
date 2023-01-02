@@ -1239,13 +1239,10 @@ li:hover {
     }
 
     .informacion{
-        margin-top: -200px;
+        margin-top: -180px;
     }
 
-    .informacion{
-        margin-top: -5px;
-    }
-
+   
     .button{
         font-family: poppins;
         font-weight: 500;
