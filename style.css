@@ -946,9 +946,10 @@ li:hover {
     @media (max-width:383px){
         .footer{
 
-            padding:50px 0px;
+            padding:20px 0px;
             font-family: 'Play', sans-serif;
             text-align:center;
+            margin-top: 100px;
             }
             
             .footer .row{
