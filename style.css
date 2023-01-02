@@ -686,6 +686,7 @@ li:hover {
         font-size: 33px;
         top: -215px;
         position: relative;
+        z-index: -2;
     
     }
 
