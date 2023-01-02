@@ -169,13 +169,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.rickrolled span {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 800;
-    background-image: linear-gradient(90deg, #007CF0, #00DFD8);
-    color: white;
-}
+
 
 
 .button:after {

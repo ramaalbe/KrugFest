@@ -146,7 +146,7 @@ li:hover {
     margin: 0 auto; 
     letter-spacing: .15em;
     animation: 
-      typing 3.5s steps(30, end),
+      typing 3s steps(30, end),
       blink-caret .5s step-end infinite;
   }
   
@@ -168,13 +168,7 @@ li:hover {
     50% { border-color: rgb(255, 255, 255) }
   }
   
-.heyy-olvidona {
-    font-size: 10rem;
-    position: absolute;
-    top: 35%;
-    -webkit-animation: teacuerdasdemi 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both 3.2s;
-    animation: teacuerdasdemi 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both 3.2s;
-}
+
 
 .max-w-6xl{
   max-height: 40rem;
@@ -194,17 +188,6 @@ li:hover {
 }
 
 
-.ni2besosnina {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    position: absolute;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) -50%, rgba(255, 255, 255, 0) 100%);
-    -webkit-animation: opa 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both 3.5s;
-    animation: opa 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both 3.5s;
-}
-
 .icon {
     position: absolute;
     width: 150px;
@@ -216,20 +199,7 @@ li:hover {
     animation: opa 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both 4.5s;
 }
 
-.vid {
-    mix-blend-mode: screen;
-    -webkit-animation: opa 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both;
-    animation: opa 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both;
 
-}
-
-.vid2 {
-    margin-top: 5rem;
-    mix-blend-mode: screen;
-    -webkit-animation: opa-vid 2.5s cubic-bezier(0.08, 0.82, 0.17, 1) both 4s;
-    animation: opa-vid 2.5s cubic-bezier(0.08, 0.82, 0.17, 1) both 4s;
-
-}
 
 .tittle-informacion span {
     -webkit-background-clip: text;
@@ -242,10 +212,10 @@ li:hover {
 
 }
 
-
+/*inicio footer*/
   
   .footer{
-  background:#000;
+
   padding:30px 0px;
   font-family: 'Play', sans-serif;
   text-align:center;
@@ -283,20 +253,10 @@ li:hover {
   margin:0% 1%;
   }
   
-  @media (max-width:720px){
-  .footer{
-  text-align:left;
-  padding:5%;
-  }
-  .footer .row ul li{
-  display:block;
-  margin:10px 0px;
-  text-align:left;
-  }
-  .footer .row a i{
-  margin:0% 3%;
-  }
-  }
+
+  
+
+  /*fin footer*/
 
 .informacion {
     margin-top: 50px;
@@ -371,30 +331,6 @@ li:hover {
 }
 
 
-
-
-
-.blurS {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.594);
-    backdrop-filter: blur(8px);
-}
-
-.modal {
-    z-index: 99999;
-    background-color: rgb(32, 32, 32);
-    border-radius: 1rem;
-    position: relative;
-    display: flex;
-    margin: auto;
-    width: 60%;
-    height: 50vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 .button:after {
     content: '';
@@ -645,14 +581,14 @@ li:hover {
     margin: -100px auto;
     letter-spacing: .15em; 
     animation: 
-      typing 3.5s steps(30, end),
+      typing 3s steps(30, end),
       blink-caret .5s step-end infinite;
   }
   
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 40% }
+    to { width: 23% }
   }
   
 
@@ -682,26 +618,67 @@ li:hover {
 /*  Resolucion Telefono */ 
 @media (max-width: 767px){
 
-    .modal {
-        z-index: 99999;
-        background-color: rgb(32, 32, 32);
-        border-radius: 1rem;
-        position: relative;
-        display: flex;
-        margin: auto;
-        width: 95%;
-        height: 40vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+   
+
+    /*inicio footer*/
+  
+  
+    
+   
+    
+    @media (max-width:767px){
+        .footer{
+
+            padding:50px 0px;
+            font-family: 'Play', sans-serif;
+            text-align:center;
+            }
+            
+            .footer .row{
+            width:100%;
+            margin:1% 0%;
+            padding:0.6% 0%;
+            color:gray;
+            font-size:0.55em;
+            }
+            
+            .footer .row a{
+            text-decoration:none;
+            color:gray;
+            transition:0.5s;
+            }
+            
+            .footer .row a:hover{
+            color:#fff;
+            }
+            
+            .footer .row ul{
+            width:100%;
+            }
+            
+            .footer .row ul li{
+            display:inline-block;
+            margin:0px 30px;
+            }
+            
+            .footer .row a i{
+            font-size:2em;
+            margin:0% 1%;
+            }
+            
     }
-
-    .close {
-        left: 87%;
-        height: 30px;
-        padding: 8px;
-        width: 30px;
-
+  
+    /*fin footer*/
+    
+    .tittle-informacion span {
+        -webkit-background-clip: text;
+        font-weight: 900;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 4px;
+        -webkit-text-stroke: 3px transparent;
+        font-size: 33px;
+    
     }
 
     .tittle-informacion {
@@ -733,10 +710,6 @@ li:hover {
 
     }
 
-    .vid2 {
-        margin-top: -6rem;
-        width: 90%;
-    }
 
     .icon {
         width: 100px;
@@ -903,6 +876,7 @@ li:hover {
     white-space: nowrap; 
     margin: 125px auto; 
     letter-spacing: .15em; 
+    z-index: -2;
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
@@ -932,10 +906,12 @@ li:hover {
         top: 10%;
         font-size: 60px;
         color: white;
+        z-index: -2;
     }
 
     .icon{
         margin-top: 140px;
+        z-index: -2;
     }
 
     .informacion{
