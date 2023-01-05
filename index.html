@@ -53,10 +53,28 @@
         <p class="SCsection informacion">En la <span class="import">KRUGFEST</span>  nos encargamos de tomar la mejor esencia de la joda sumado a un acceso economico y lo hacemos en un mismo lugar, contamos con <span class="import">Seguridad Privada, Ingreso de Bebidas, Entradas en Puerta tanto como Anticipadas, DJS Invitados, Sonido e Iluminacion.</span>  Tenemos una capacidad de mas de <span class="import">500 personas, </span> hacemos noches tematicas para disfrutar cada fecha como ninguna otra, vamos mejorando noche a noche. En serio pensas perdertela? Saca tu Anticipada YA o encontra informacion de la proxima fecha en nuestro <span class="import">Instagram </span> o <span class="import"> WhatsApp.</span></p>
         <div class="SCsection">
 
-            <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-data-preference-id="1226012776-4bab4013-8c72-4048-b93a-ffa02bda4ce7" data-source="button">
+            
+<script src="https://sdk.mercadopago.com/js/v2"></script>
 
 
+<div class="cho-container"></div>
+<script>
+  const mp = new MercadoPago('TEST-82343fcc-1a76-41c7-993b-181e36ff39a2', {
+    locale: 'es-AR'
+  });
+
+  mp.checkout({
+    preference: {
+      id: '1226012776-4bab4013-8c72-4048-b93a-ffa02bda4ce7'
+    },
+    render: {
+      container: '.cho-container',
+      label: 'Pagar',
+    }
+  });
+</script>
+
+<script>
 var preference = {}
 preference = {
   // ...
