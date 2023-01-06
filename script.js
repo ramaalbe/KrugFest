@@ -40,6 +40,35 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 	document.getElementsByTagName('video')[0].setAttribute('src', 'olvidona.mp4')
 }
 
+// SDK de Mercado Pago
+const mercadopago = require("mercadopago");
+// Agrega credenciales
+mercadopago.configure({
+  access_token: "TEST-7688015308683499-010220-e8a327cd3b6fc71e83c6615ea1bb6372-1226012776",
+});
+
+
+// Crea un objeto de preferencia
+let preference = {
+	items: [
+	  {
+		title: "Mi producto",
+		unit_price: 0.50,
+		quantity: 1,
+	  },
+	],
+  };
+  
+  mercadopago.preferences
+	.create(preference)
+	.then(function (response) {
+	  // En esta instancia deberás asignar el valor dentro de response.body.id por el ID de preferencia solicitado en el siguiente paso
+	})
+	.catch(function (error) {
+	  console.log(error);
+	});
+  
+
 ScrollReveal().reveal('.SCsection:nth-child(1)', {
 	origin: 'bottom',
 	distance: '50px',
