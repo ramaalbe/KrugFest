@@ -937,6 +937,13 @@ li:hover {
 
 }
 
+@media (max-width: 414px){
+
+    .tittle-informacion{
+        margin-top: 150px;
+    }
+}
+
 /*  Resolucion Telefono */ 
 @media (max-width: 383px){
 
