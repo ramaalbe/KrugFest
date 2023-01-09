@@ -52,6 +52,7 @@ background: #000000;
 
 
 
+
 @keyframes chan-sh {
 	from  {content: 'free shipping';}
 	to  {content: 'New';}
@@ -90,10 +91,10 @@ background: #000000;
 /* the Button */
 .btn {
 
-
 	background: #009ee3;
 	border-radius: 9px;
-  position: relative;
+  position: absolute;
+  right: 75px;
   overflow: hidden;
 	cursor: pointer;
 	outline: none;
@@ -112,6 +113,7 @@ background: #000000;
   padding: 10px 15px;
 	font-size: 1.0em;
 	margin:0;
+	
 	
 }
 
@@ -213,6 +215,7 @@ background: #000000;
 	background: #009ee3;
 	border-radius: 9px;
   position: relative;
+  left: 0px;
   overflow: hidden;
 	cursor: pointer;
 	outline: none;
