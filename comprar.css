@@ -20,6 +20,8 @@ background: #000000;
 	
 }
 
+
+
 .container-mobile{
 	visibility: hidden
 }
@@ -49,6 +51,15 @@ background: #000000;
 	
 }
 
+.importante{
+	margin-top: 56px;
+	font-family: poppins;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 600;
+    color: red;
+	
+}
 
 
 
@@ -233,6 +244,15 @@ background: #000000;
 	
 }
 
+.importante{
+	margin-top: 56px;
+	font-family: poppins;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 600;
+    color: red;
+	
+}
 
 .btn span {
 	font-family: 'poppins',;
