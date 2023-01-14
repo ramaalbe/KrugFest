@@ -151,6 +151,13 @@ background: #000000;
     top: 0px;
 }
 
+
+.btn .price, .shopping-cart{
+	background: #333;
+	border: 0;
+	margin: 0;
+}
+
 .info h2 {text-align: center}
 .product-image:hover .info{transform: translateX(0);}
 
